@@ -6,6 +6,6 @@ of tracking host-specific configuration differences.
 
 ## TODO
 
-[ ] configure lightdm
-[ ] LUKS encryption
-[ ] picom?
+- [ ] configure lightdm
+- [ ] LUKS encryption
+- [ ] picom?
