@@ -13,8 +13,6 @@
   services.xserver.libinput.enable = true;
   services.xserver.libinput.touchpad.disableWhileTyping = true;
   services.xserver.xkbOptions = "ctrl:nocaps,terminate:ctrl_alt_bksp";
-  # kernel commandline for two-finger scrolling after suspend
-  boot.kernelParams = ["psmouse.synaptics_intertouch=0"];
 
   # Enable the qtile window manager.
   services.xserver.displayManager.lightdm.enable = true;

@@ -17,5 +17,7 @@
     keyMap = "us";
   };
 
+  # Use latest kernel for hardware support
+  boot.kernelPackages = pkgs.linuxPackages_latest;
 }
 

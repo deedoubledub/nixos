@@ -3,13 +3,12 @@
 { config, pkgs, ... }:
 
 {
-  networking.hostName = "quahog"; # Define your hostname.
+  networking.hostName = "frame"; # Define your hostname.
 
   # The global useDHCP flag is deprecated
   # Per-interface useDHCP will be mandatory in the future
   networking.useDHCP = false;
-  networking.interfaces.enp0s25.useDHCP = true;
-  networking.interfaces.wlp3s0.useDHCP = true;
+  networking.interfaces.wlp170s0.useDHCP = true;
 
   networking.networkmanager.enable = true;
 
