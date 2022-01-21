@@ -7,7 +7,6 @@ of tracking host-specific configuration differences.
 ## TODO
 
 - [ ] ui scaling
-- [ ] fingerprint reader
 - [ ] configure lightdm
 - [ ] LUKS encryption
 
