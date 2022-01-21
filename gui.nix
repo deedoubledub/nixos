@@ -6,6 +6,9 @@
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
+  # Enable picom
+  services.picom.enable = true;
+
   # Enable sound.
   hardware.pulseaudio.enable = true;
 

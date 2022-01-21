@@ -10,7 +10,6 @@ of tracking host-specific configuration differences.
 - [ ] fingerprint reader
 - [ ] configure lightdm
 - [ ] LUKS encryption
-- [ ] picom?
 
 ## Installation Quick Start
 
