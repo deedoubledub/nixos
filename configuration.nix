@@ -14,6 +14,7 @@
       ./gui.nix
       ./brightness.nix
       ./fingerprint.nix
+      ./dock.nix
       ./trezor.nix
       ./docker.nix
       ./users.nix
