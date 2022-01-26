@@ -67,6 +67,7 @@
     firefox
     flameshot
     gimp
+    gnome.adwaita-icon-theme
     gnome.gnome-calculator
     gnome.nautilus
     google-chrome
