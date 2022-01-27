@@ -19,5 +19,8 @@
 
   # Use latest kernel for hardware support
   boot.kernelPackages = pkgs.linuxPackages_latest;
+
+  # Enable deep sleep for battery conservation
+  boot.kernelParams = [ "mem_sleep_default=deep" ];
 }
 
