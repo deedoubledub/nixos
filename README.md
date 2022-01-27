@@ -6,7 +6,6 @@ of tracking host-specific configuration differences.
 
 ## TODO
 
-- [ ] ui scaling
 - [ ] configure lightdm
 - [ ] LUKS encryption
 
