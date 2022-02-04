@@ -85,6 +85,7 @@
 
     # network
     openconnect
+    nmap-graphical
   ];
 
   # fonts
