@@ -47,6 +47,8 @@
     docker-compose
     git
     go
+    kubectl
+    lens
 
     # window manager
     arandr

@@ -10,8 +10,9 @@ in
   environment.systemPackages = with pkgs; [
     # GlobalProtect VPN
     (import (fetchTarball "channel:nixos-unstable") {}).globalprotect-openconnect
-    # bisq
-    #(import (fetchTarball "channel:nixos-unstable") {}).bisq-desktop
+
+    # talosctl
+    (import (fetchTarball "channel:nixos-unstable") {}).talosctl
   ];
 
   imports =
