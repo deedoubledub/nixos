@@ -31,7 +31,6 @@
     # console
     alacritty
     hiera-eyaml
-    neovim
     perl532Packages.AppClusterSSH
     screen
     tmux

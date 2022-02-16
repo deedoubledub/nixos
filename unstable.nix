@@ -13,6 +13,9 @@ in
 
     # talosctl
     (import (fetchTarball "channel:nixos-unstable") {}).talosctl
+
+    # neovim
+    (import (fetchTarball "channel:nixos-unstable") {}).neovim
   ];
 
   imports =
