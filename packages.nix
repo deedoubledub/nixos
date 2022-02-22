@@ -18,6 +18,7 @@
     file
     htop
     inetutils
+    iotop
     killall
     libnotify
     ncdu
