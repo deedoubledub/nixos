@@ -44,6 +44,7 @@
     arduino
     csvkit
     docker-compose
+    etcher
     git
     go
     kubectl
