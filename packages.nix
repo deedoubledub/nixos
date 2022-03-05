@@ -48,6 +48,7 @@
     etcher
     git
     go
+    k9s
     kubectl
     lens
 
