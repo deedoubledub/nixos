@@ -50,6 +50,7 @@
     go
     k9s
     kubectl
+    kubeseal
     lens
 
     # window manager
