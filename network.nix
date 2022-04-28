@@ -11,11 +11,5 @@
   networking.interfaces.wlp170s0.useDHCP = true;
 
   networking.networkmanager.enable = true;
-
-  # manual /etc/hosts entries
-  networking.extraHosts =
-    ''
-      192.168.5.10 webadvisornew.allegheny.edu
-    '';
 }
 

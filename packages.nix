@@ -73,6 +73,7 @@
     flameshot
     gimp
     gnome.adwaita-icon-theme
+    gnome.gedit
     gnome.gnome-calculator
     gnome.nautilus
     google-chrome
