@@ -7,7 +7,7 @@
   users.users.dwagner = {
     isNormalUser = true;
     initialPassword = "badpassword";
-    extraGroups = [ "dialout" "docker" "networkmanager" "video" "wheel" ];
+    extraGroups = [ "dialout" "docker" "libvirtd" "networkmanager" "video" "wheel" ];
   };
 }
 

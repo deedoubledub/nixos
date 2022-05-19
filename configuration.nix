@@ -20,6 +20,7 @@
       ./users.nix
       ./packages.nix
       ./unstable.nix
+      ./virtualization.nix
     ];
 
   # This value determines the NixOS release from which the default
