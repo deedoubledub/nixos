@@ -45,13 +45,14 @@
     arduino
     csvkit
     docker-compose
-    etcher
+    #etcher
     git
     go
     k9s
     kubectl
     kubeseal
     lens
+    virt-manager
 
     # window manager
     arandr
