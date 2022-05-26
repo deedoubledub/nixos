@@ -51,7 +51,6 @@
     k9s
     kubectl
     kubeseal
-    lens
     virt-manager
 
     # window manager
