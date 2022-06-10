@@ -91,7 +91,7 @@
 
     # network
     openconnect
-    nmap-graphical
+    nmap
   ];
 
   # fonts
