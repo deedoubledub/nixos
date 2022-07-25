@@ -47,6 +47,7 @@
     docker-compose
     git
     go
+    hugo
     jq
     k9s
     kubectl
