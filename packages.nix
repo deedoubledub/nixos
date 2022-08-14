@@ -81,7 +81,7 @@
     networkmanagerapplet
     pavucontrol
     remmina
-    slack
+    steam
     vlc
     ytmdesktop
 
