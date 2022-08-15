@@ -81,7 +81,6 @@
     networkmanagerapplet
     pavucontrol
     remmina
-    steam
     vlc
     ytmdesktop
 
@@ -100,6 +99,11 @@
     roboto-mono
     (nerdfonts.override { fonts = [ "RobotoMono" ]; })
   ];
+
+  # steam
+  programs.steam = {
+    enable = true;
+  };
 
   # services
   services.gvfs.enable = true; # smb support in nautilus
