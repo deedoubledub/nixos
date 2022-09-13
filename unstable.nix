@@ -11,9 +11,6 @@ in
     # GlobalProtect VPN
     (import (fetchTarball "channel:nixos-unstable") {}).globalprotect-openconnect
 
-    # talosctl
-    (import (fetchTarball "channel:nixos-unstable") {}).talosctl
-
     # neovim
     (import (fetchTarball "channel:nixos-unstable") {}).neovim
   ];
