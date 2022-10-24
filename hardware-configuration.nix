@@ -12,6 +12,7 @@
   boot.initrd.kernelModules = [ ];
   boot.kernelModules = [ "kvm-intel" "v4l2loopback" ];
   boot.extraModulePackages = with config.boot.kernelPackages; [ v4l2loopback.out ];
+  boot.extraModprobeConfig = ''options bluetooth disable_ertm=1'';
 
   fileSystems."/" =
     { device = "/dev/disk/by-label/NIXROOT";
