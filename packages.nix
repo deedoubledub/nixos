@@ -79,6 +79,7 @@
     google-chrome
     kate
     networkmanagerapplet
+    obs-studio
     pavucontrol
     remmina
     vlc
