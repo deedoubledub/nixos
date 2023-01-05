@@ -32,14 +32,14 @@
     # console
     alacritty
     hiera-eyaml
-    perl532Packages.AppClusterSSH
+    perl536Packages.AppClusterSSH
     screen
     tmux
     tree
     vim
     xclip
     yadm
-    youtube-dl
+    yt-dlp
 
     # development
     arduino
