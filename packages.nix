@@ -52,7 +52,9 @@
     k9s
     kubectl
     kubeseal
+    texlive.combined.scheme-full
     virt-manager
+    zathura
 
     # window manager
     arandr
