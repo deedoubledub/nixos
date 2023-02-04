@@ -95,6 +95,7 @@
     # network
     openconnect
     nmap
+    wireguard-tools
   ];
 
   # fonts
