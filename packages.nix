@@ -71,6 +71,7 @@
 
     # gui
     appimage-run
+    bitwarden
     discord
     firefox
     flameshot
