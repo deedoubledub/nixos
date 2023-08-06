@@ -32,6 +32,7 @@
     # console
     alacritty
     hiera-eyaml
+    minicom
     perl536Packages.AppClusterSSH
     screen
     tmux
