@@ -35,6 +35,7 @@
     minicom
     perl536Packages.AppClusterSSH
     screen
+    sshpass
     tmux
     tree
     vim
