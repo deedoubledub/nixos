@@ -26,5 +26,9 @@
       ip46tables -t mangle -D nixos-fw-rpfilter -p udp -m udp --dport 51820 -j RETURN || true
     '';
   };
+
+  networking.extraHosts = ''
+    192.168.119.13 vcenter.allegheny.edu vcenter
+    '';
 }
 
