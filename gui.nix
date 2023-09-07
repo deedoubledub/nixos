@@ -27,6 +27,6 @@
 
   # Lock on suspend
   programs.xss-lock.enable = true;
-  programs.xss-lock.lockerCommand = "env XSECURELOCK_PASSWORD_PROMPT=time_hex XSECURELOCK_SHOW_DATETIME=1 XSECURELOCK_BLANK_TIMEOUT=30 XSECURELOCK_BLANK_DPMS_STATE=off XSECURELOCK_FONT='RobotoMono Nerd Font' XSECURELOCK_NO_COMPOSITE=1 ${pkgs.xsecurelock}/bin/xsecurelock";
+  programs.xss-lock.lockerCommand = "env XSECURELOCK_PASSWORD_PROMPT=time_hex XSECURELOCK_SHOW_DATETIME=1 XSECURELOCK_BLANK_TIMEOUT=30 XSECURELOCK_BLANK_DPMS_STATE=off XSECURELOCK_FONT='RobotoMono' XSECURELOCK_NO_COMPOSITE=1 ${pkgs.xsecurelock}/bin/xsecurelock";
 }
 
