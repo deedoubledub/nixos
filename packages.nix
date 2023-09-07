@@ -96,7 +96,6 @@
     trezor-udev-rules
 
     # network
-    openconnect
     nmap
     wireguard-tools
   ];
