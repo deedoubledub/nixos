@@ -10,6 +10,11 @@
   # Allow nonfree packages.
   nixpkgs.config.allowUnfree = true;
 
+  # Allow insecure electron-24.8.6
+  nixpkgs.config.permittedInsecurePackages = [
+    "electron-24.8.6"
+  ];
+
   # List packages installed in system profile.
   environment.systemPackages = with pkgs; [
     # system
