@@ -33,6 +33,7 @@
     usbutils
     wget
     xorg.xkill
+    zip
 
     # console
     alacritty
