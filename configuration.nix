@@ -5,8 +5,8 @@
 {
   imports =
     [ # Include the results of the hardware scan.
+      <nixos-hardware/framework/13-inch/11th-gen-intel>
       ./hardware-configuration.nix
-      <nixos-hardware/common/pc/ssd>
 
       ./base.nix
       ./network.nix

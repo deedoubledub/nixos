@@ -12,8 +12,7 @@
   # Enable sound.
   hardware.pulseaudio.enable = true;
 
-  # Enable touchpad support (enabled default in most desktopManager).
-  services.xserver.libinput.enable = true;
+  # Touchpad and keyboard tweaks
   services.xserver.libinput.touchpad.disableWhileTyping = true;
   services.xserver.xkbOptions = "ctrl:nocaps,terminate:ctrl_alt_bksp";
 

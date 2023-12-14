@@ -15,7 +15,10 @@
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
   # battery life tweaks
-  boot.kernelParams = [ "mem_sleep_default=s2idle" "nvme.noacpi=1" ];
+  boot.kernelParams = [ "mem_sleep_default=s2idle" ];
+
+  # enable fwupd for firmware updates
+  services.fwupd.enable = true;
 
   fileSystems."/" =
     { device = "/dev/disk/by-label/NIXROOT";
@@ -32,5 +35,4 @@
     ];
 
   powerManagement.cpuFreqGovernor = lib.mkDefault "powersave";
-  hardware.cpu.intel.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;
 }
