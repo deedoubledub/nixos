@@ -107,7 +107,7 @@
   ];
 
   # fonts
-  fonts.fonts = with pkgs; [
+  fonts.packages = with pkgs; [
     roboto-mono
     (nerdfonts.override { fonts = [ "RobotoMono" ]; })
   ];

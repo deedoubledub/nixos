@@ -14,7 +14,7 @@
 
   # Touchpad and keyboard tweaks
   services.xserver.libinput.touchpad.disableWhileTyping = true;
-  services.xserver.xkbOptions = "ctrl:nocaps,terminate:ctrl_alt_bksp";
+  services.xserver.xkb.options = "ctrl:nocaps,terminate:ctrl_alt_bksp";
 
   # Enable the qtile window manager.
   services.xserver.displayManager.lightdm.enable = true;
