@@ -79,6 +79,7 @@
 
     # gui
     appimage-run
+    bisq-desktop
     bitwarden
     discord
     firefox
