@@ -18,6 +18,7 @@
   # List packages installed in system profile.
   environment.systemPackages = with pkgs; [
     # system
+    alsa-utils
     bind
     dos2unix
     file
