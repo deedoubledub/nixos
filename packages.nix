@@ -94,6 +94,7 @@
     networkmanagerapplet
     obs-studio
     pavucontrol
+    polkit_gnome
     remmina
     vlc
     ytmdesktop
