@@ -29,6 +29,7 @@
     libnotify
     ncdu
     pciutils
+    pv
     sshfs
     unzip
     usbutils
