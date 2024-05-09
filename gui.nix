@@ -27,6 +27,11 @@
   services.xserver.displayManager.defaultSession = "none+qtile";
   services.xserver.windowManager.qtile.enable = true;
 
+  # Enable XRDP
+  services.xrdp.enable = true;
+  services.xrdp.defaultWindowManager = "qtile start -b x11";
+  services.xrdp.openFirewall = true;
+
   # Configure keymap in X11
   services.xserver.layout = "us";
 
