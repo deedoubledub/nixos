@@ -19,12 +19,12 @@
   };
 
   # Touchpad and keyboard tweaks
-  services.xserver.libinput.touchpad.disableWhileTyping = true;
+  services.libinput.touchpad.disableWhileTyping = true;
   services.xserver.xkb.options = "ctrl:nocaps,terminate:ctrl_alt_bksp";
 
   # Enable the qtile window manager.
   services.xserver.displayManager.lightdm.enable = true;
-  services.xserver.displayManager.defaultSession = "none+qtile";
+  services.displayManager.defaultSession = "none+qtile";
   services.xserver.windowManager.qtile.enable = true;
 
   # Enable XRDP
@@ -33,7 +33,7 @@
   services.xrdp.openFirewall = true;
 
   # Configure keymap in X11
-  services.xserver.layout = "us";
+  services.xserver.xkb.layout = "us";
 
   # Lock on suspend
   programs.xss-lock.enable = true;

@@ -98,7 +98,7 @@
     polkit_gnome
     remmina
     vlc
-    ytmdesktop
+    #ytmdesktop
 
     # trezor
     trezord
