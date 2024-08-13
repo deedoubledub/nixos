@@ -28,6 +28,7 @@
     killall
     libnotify
     ncdu
+    p7zip
     pciutils
     pv
     sshfs
