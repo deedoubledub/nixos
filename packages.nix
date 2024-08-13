@@ -100,6 +100,9 @@
     vlc
     #ytmdesktop
 
+    # games
+    clonehero
+
     # trezor
     trezord
     trezor-suite
