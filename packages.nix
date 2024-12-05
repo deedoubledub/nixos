@@ -42,7 +42,7 @@
     alacritty
     hiera-eyaml
     minicom
-    perl536Packages.AppClusterSSH
+    perl540Packages.AppClusterSSH
     screen
     sshpass
     tmux
@@ -82,15 +82,14 @@
 
     # gui
     appimage-run
-    bisq-desktop
     bitwarden
     discord
     firefox
     flameshot
     gimp
-    gnome.adwaita-icon-theme
-    gnome.gnome-calculator
-    gnome.nautilus
+    adwaita-icon-theme
+    gnome-calculator
+    nautilus
     google-chrome
     kate
     networkmanagerapplet

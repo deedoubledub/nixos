@@ -24,7 +24,7 @@
 
   # Enable the qtile window manager.
   services.xserver.displayManager.lightdm.enable = true;
-  services.displayManager.defaultSession = "none+qtile";
+  services.displayManager.defaultSession = "qtile";
   services.xserver.windowManager.qtile.enable = true;
 
   # Enable XRDP
