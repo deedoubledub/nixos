@@ -21,6 +21,7 @@
       ./packages.nix
       ./unstable.nix
       ./virtualization.nix
+      ./printing.nix
     ];
 
   # This value determines the NixOS release from which the default
