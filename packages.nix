@@ -63,6 +63,7 @@
     k9s
     kubectl
     kubeseal
+    openssl
     texlive.combined.scheme-full
     virt-manager
     zathura
