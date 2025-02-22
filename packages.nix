@@ -63,6 +63,7 @@
     k9s
     kubectl
     kubeseal
+    nodejs_23
     openssl
     texlive.combined.scheme-full
     virt-manager
