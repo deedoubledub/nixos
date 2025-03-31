@@ -41,7 +41,6 @@
     # console
     alacritty
     gnupg
-    hiera-eyaml
     minicom
     pass
     perl540Packages.AppClusterSSH
