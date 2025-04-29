@@ -31,6 +31,7 @@
     p7zip
     pciutils
     pv
+    restic
     sshfs
     unzip
     usbutils
