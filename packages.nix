@@ -118,9 +118,8 @@
   ];
 
   # fonts
-  fonts.packages = with pkgs; [
-    roboto-mono
-    (nerdfonts.override { fonts = [ "RobotoMono" ]; })
+  fonts.packages = [
+    pkgs.nerd-fonts.roboto-mono
   ];
 
   # steam
