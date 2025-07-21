@@ -95,7 +95,7 @@
     gnome-calculator
     nautilus
     google-chrome
-    kate
+    kdePackages.kate
     networkmanagerapplet
     obs-studio
     pavucontrol
