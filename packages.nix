@@ -93,6 +93,7 @@
     gimp
     adwaita-icon-theme
     gnome-calculator
+    indicator-sound-switcher
     nautilus
     google-chrome
     kdePackages.kate
@@ -114,6 +115,8 @@
 
     # network
     nmap
+    #openfortivpn
+    #openfortivpn-webview
     wireguard-tools
   ];
 
