@@ -13,9 +13,6 @@ in
 
     # neovim
     (import (fetchTarball "channel:nixos-unstable") {}).neovim
-
-    # ytmdesktop
-    (import (fetchTarball "channel:nixos-unstable") {}).ytmdesktop
   ];
 }
 
