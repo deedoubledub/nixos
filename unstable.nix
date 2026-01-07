@@ -8,6 +8,9 @@ let
 in
 {
   environment.systemPackages = with pkgs; [
+    # feishin
+    (import (fetchTarball "channel:nixos-unstable") {}).feishin
+
     # neovim
     (import (fetchTarball "channel:nixos-unstable") {}).neovim
 
