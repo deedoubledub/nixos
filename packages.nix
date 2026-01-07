@@ -86,7 +86,6 @@
 
     # gui
     appimage-run
-    bitwarden
     discord
     firefox
     flameshot
@@ -103,7 +102,6 @@
     polkit_gnome
     remmina
     vlc
-    #ytmdesktop
 
     # games
     clonehero
