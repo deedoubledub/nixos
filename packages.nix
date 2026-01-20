@@ -27,6 +27,7 @@
     iotop
     killall
     libnotify
+    libsecret
     ncdu
     p7zip
     pciutils
@@ -92,6 +93,7 @@
     gimp
     adwaita-icon-theme
     gnome-calculator
+    gnome-keyring
     indicator-sound-switcher
     nautilus
     google-chrome
@@ -101,6 +103,7 @@
     pavucontrol
     polkit_gnome
     remmina
+    seahorse
     vlc
 
     # games
