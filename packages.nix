@@ -20,6 +20,7 @@
     # system
     alsa-utils
     bind
+    brightnessctl
     dos2unix
     file
     htop
