@@ -38,7 +38,7 @@
     unzip
     usbutils
     wget
-    xorg.xkill
+    xkill
     zip
 
     # console
