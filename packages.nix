@@ -46,7 +46,6 @@
     gnupg
     minicom
     pass
-    perl540Packages.AppClusterSSH
     screen
     sshpass
     tmux
