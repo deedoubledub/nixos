@@ -12,7 +12,6 @@
       ./network.nix
       ./bluetooth.nix
       ./gui.nix
-      ./brightness.nix
       ./fingerprint.nix
       ./dock.nix
       ./trezor.nix
