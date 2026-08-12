@@ -43,6 +43,7 @@
 
     # console
     alacritty
+    ffmpeg
     gnupg
     minicom
     pass
